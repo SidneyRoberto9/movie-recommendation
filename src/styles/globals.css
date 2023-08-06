@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer Base {
+  body {
+    @apply flex w-full h-screen justify-center items-center bg-movie-body;
+  }
+}

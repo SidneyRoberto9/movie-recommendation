@@ -7,12 +7,26 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Outfit', 'sans-serif'],
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'movie-body': 'linear-gradient(90deg, #9f55ff 0%, #ff46b9 100%)',
+        'movie-body-back': 'linear-gradient(120deg, #C497FF 30%, #9947FF 100%)',
+        'button-recommendation': 'linear-gradient(90deg, #8323ff 0%, #ff2daf 100%)',
+      },
+      colors: {
+        'yellow-banana': '#FEEA35',
+        'gray-light': '#8b8d9b',
+        'gray-light-500': '#2b2b37',
+      },
+      backgroundColor: {
+        card: '#1E1F28',
+      },
+      boxShadow: {
+        card: '0px -3px 22px 0px rgba(0, 0, 0, 0.35)',
       },
     },
   },
   plugins: [],
-}
+};
